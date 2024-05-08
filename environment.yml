@@ -1,4 +1,4 @@
-name: readDiag
+name: readDiag.IA
 channels:
   - conda-forge
   - pyviz
@@ -15,3 +15,5 @@ dependencies:
       - pandas==2.1.4
       - readDiag==1.2.3
       - xarray==2023.12.0
+      - scikit-learn==1.4.2
+      - seaborn==0.13.2
