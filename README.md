@@ -1,4 +1,8 @@
-# readDiag
+# readDiag.IA 
+
+machine learning for Radiance Channel Selection
+
+This is a version of readDiag that utilizes machine learning methods (Random Forest, Multi-layer Perceptron, XGBoost) from the scikit-learn library. It is employed for radiance channel selection, utilizing data from AMSU-A and IASI (in the near future) diagnostics files. This project is part of Patrick dos Santos Câmara's master's degree. The installation process is the same as explained below, as the requirements.txt file contains all library versions used in this project (scikit-learn, seaborn).
 
 readDiag is a Python package that provides a class to read and plot the [Gridpoint Statistical Interpolation](https://dtcenter.org/community-code/gridpoint-statistical-interpolation-gsi) diagnostics files. It can be used to retrieve and investigate important information from the data assimilation process:
 
