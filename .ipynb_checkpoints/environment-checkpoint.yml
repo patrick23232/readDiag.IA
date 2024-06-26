@@ -1,0 +1,21 @@
+name: readDiag.IA
+channels:
+  - conda-forge
+  - pyviz
+  - defaults
+dependencies:
+  - jupyterlab=4.0.9
+  - python=3.9.18
+  - pip=23.3.1
+  - pip:
+      - cartopy==0.22.0
+      - geopandas==0.14.1
+      - matplotlib==3.8.2
+      - numpy==1.26.2
+      - pandas==2.1.4
+      - readDiag==1.2.3
+      - xarray==2023.12.0
+      - scikit-learn==1.4.2
+      - seaborn==0.13.2
+      - xgboost==2.0.3
+      - roughsets-base==1.0.1.2

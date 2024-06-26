@@ -9,3 +9,4 @@ xarray==2023.12.0
 scikit-learn==1.4.2
 seaborn==0.13.2
 xgboost==2.0.3
+roughsets-base==1.0.1.2
